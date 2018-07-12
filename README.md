@@ -62,3 +62,8 @@
 
 3.在右上角喇叭部分选择多设备输出，这样子才有声音
 
+### Linux版本注意
+由于原本官方没有提供自带的浏览器插件，所以在Linux也想使用这个环境的话需要安装一个OBS的插件地址https://github.com/bazukas/obs-linuxbrowser
+- mkdir -p $HOME/.config/obs-studio/plugins
+- tar xfvz linuxbrowser0.3.1-obs20.0.1-64bit.tgz -C $HOME/.config/obs-studio/plugins/
+- Install the dependencies: libgconf-2-4 (sudo apt-get install libgconf-2-4 in Ubuntu)
